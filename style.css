@@ -385,7 +385,8 @@ img {
 }
 
 .login-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 420px);
+    justify-content: center;
 }
 
 .login-card p {
@@ -427,6 +428,11 @@ img {
     color: var(--title);
     font-size: 1.65rem;
     line-height: 1;
+}
+
+.plan-button {
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .step-card {
